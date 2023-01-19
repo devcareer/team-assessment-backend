@@ -2,7 +2,8 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^6.8.4"
+    "mongoose": "^6.8.4",
+    "validator": "^13.7.0"
   },
   "scripts": {
     "start": "node server.js",
@@ -12,7 +13,6 @@
   "description": "Devcareer has over 15,000 active members and employs young, motivated programmers via a variety of cohort programs with rigorous application, assessment, and interview procedures. To do this going forward, we need a solid platform to automate these procedures, and we want to develop a solution that makes their execution easier for our recruiters.",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devcareer/team-assessment-backend.git"
